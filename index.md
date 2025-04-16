@@ -1,7 +1,27 @@
 [About](/about.md){: style="font-size: 20px;"} |
 
-Embarking on a journey through Marketing, Business Management, Manufacturing, and Logistics for over a decade, I've cultivated expertise across diverse domains. Newly certified in Data Science and FinTech, my passion lies in unlocking the full potential of Machine Learning.
+## [About](/about.md){: style="font-size: 20px;"}
 
-Immersing myself in cutting-edge tools—Python, PowerBI, MySQL, and Jupyter Notebooks—I draw profound insights from intricate datasets. Challenges aren't hurdles but sparks that fuel my drive. I excel in pinpointing architectural weak points, crafting effective solutions, and finding joy in automation, streamlined processes, and optimized efficiency.
+# Founder & Certified Life Coach at Revaya
 
-Beyond professional pursuits, I actively foster community on [The Data Science Guy Live Hub](https://thedatascienceguy.live/hub/login). Simultaneously, I'm shaping a visionary concept—[Ostrich AI](https://ostrich-ai.com), a Data Asset Management & Distributed Computing Platform. I'm eager to collaborate with like-minded people who share the vision. Let's explore the journey together!
+I'm **Khushali Thakkar**, a certified life coach dedicated to helping you discover your authentic path and reach your full potential. With over 30 hours of specialized coaching experience, I founded Revaya with a singular mission: to guide individuals through life's challenges and transitions with clarity, purpose, and renewed energy.
+
+## My Approach
+
+I believe that everyone has the inner resources needed to create meaningful change. My coaching methodology combines evidence-based practices with intuitive guidance, creating a safe space where you can explore possibilities, overcome obstacles, and take action toward your goals.
+
+## My Journey
+
+My path to becoming a life coach grew from my own experiences navigating life's complexities and discovering the transformative power of intentional personal development. This journey taught me that with the right support and tools, we can all create lives that align with our deepest values and aspirations.
+
+## My Commitment
+
+When you work with me, you receive my full presence and dedication. I commit to:
+
+* Listening deeply without judgment
+* Asking powerful questions that lead to new insights
+* Challenging limiting beliefs that hold you back
+* Supporting you in creating actionable steps toward your vision
+* Celebrating your wins, both big and small
+
+I'm honored to be part of your journey toward growth and fulfillment. Let's discover together what's possible for your life.
