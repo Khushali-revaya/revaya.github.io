@@ -33,78 +33,66 @@ layout: default
             font-weight: normal;
             font-style: normal;
         }
-
+        
         body {
-            background-color: #e29898; /* Pink background */
-            color: #f6f3f2; /* Off-white text */
+            background-color: #f6f3f2; /* Off-white background color */
+            color: #333333; /* Dark font color for better readability */
             font-family: 'Belleza', sans-serif;
         }
-
         .wrapper {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
-
         header, footer {
-            background-color: transparent;
+            background-color: #f6f3f2; /* Off-white background color */
             padding: 10px;
             text-align: center;
         }
-
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Higuen Elegant Serif', serif;
-            color: #f6f3f2;
+            color: #e29898; /* Pink color for headers */
         }
-
         th {
-            color: #f6f3f2;
+            color: #e29898; /* Pink color for table headers */
         }
-
         a {
-            color: #ffffff;
+            color: #e29898; /* Pink link color */
             text-decoration: none;
         }
-
         a:hover {
             text-decoration: underline;
-            color: #ffe0e0;
         }
-
         .social-icons a {
             margin-right: 15px;
-            color: #f6f3f2;
+            color: #e29898; /* Pink icon color */
         }
-
         .social-icons a:hover {
-            color: #ffffff;
-        }
-
-        img {
-            max-width: 120px;
-            margin: 10px 0;
+            color: #d08080; /* Slightly darker pink on hover */
         }
     </style>
-
     <!--[if lt IE 9]>
+    <!-- HTML5 Shiv for IE compatibility -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
 </head>
 <body>
     <div class="wrapper">
         <header>
+            <!-- Site Title and Logo -->
             <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
             {% if site.logo %}
-                <img src="{{ site.logo }}" alt="Logo" />
+                <img src="{{site.logo | relative_url}}" alt="Logo" />
             {% endif %}
+            
+            <!-- Site Description -->
             <p>{{ site.description | default: site.github.project_tagline }}</p>
         </header>
-        
         <section>
             {{ content }}
         </section>
-
         <footer>
+            <!-- Social Icons -->
             <p class="social-icons">
                 <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
                 <a href="#"><i class="fab fa-whatsapp fa-2x"></i></a>
