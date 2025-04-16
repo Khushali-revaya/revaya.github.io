@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  {% if site.google_analytics %}
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+  {% endif %}
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+
+  <style>
+    @font-face {
+      font-family: 'Higuen Elegant Serif';
+      src: url('/assets/fonts/higuen-elegant-serif.woff2') format('woff2'),
+           url('/assets/fonts/higuen-elegant-serif.woff') format('woff');
+    }
+
+    body {
+      background-color: #e29898;
+      color: #f6f3f2;
+      font-family: 'Belleza', sans-serif;
+    }
+
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header, footer {
+      background: transparent;
+      padding: 10px;
+      text-align: center;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Higuen Elegant Serif', serif;
+      color: #f6f3f2;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #ffe0e0;
+    }
+
+    .social-icons a {
+      margin-right: 15px;
+      color: #f6f3f2;
+    }
+
+    .social-icons a:hover {
+      color: #ffffff;
+    }
+
+    img.logo {
+      max-width: 120px;
+      margin: 10px auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      {% if site.logo %}
+        <img src="{{ site.logo }}" alt="Logo" class="logo" />
+      {% endif %}
+      <p>{{ site.description }}</p>
+    </header>
+
+    <section>
+      {{ content }}
+    </section>
+
+    <footer>
+      <p class="social-icons">
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="#"><i class="fab fa-whatsapp fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fas fa-envelope fa-2x"></i></a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
+</html>
