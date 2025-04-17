@@ -14,5 +14,12 @@ We believe that everyone has the inner resources needed to create meaningful cha
 
 ### Our Commitment
 
+When you work with us, you receive our full presence and dedication. We commit to:
 
-I'm honored to be part of your journey toward growth and fulfillment. Let's discover together what's possible for your life.
+* Listening deeply without judgment
+* Asking powerful questions that lead to new insights
+* Challenging limiting beliefs that hold you back
+* Supporting you in creating actionable steps toward your vision
+* Celebrating your wins, both big and small
+
+We are honored to be part of your journey toward growth and fulfillment. Let's discover together what's possible for your life.
