@@ -10,7 +10,7 @@ We believe that everyone has the inner resources needed to create meaningful cha
 
 ### Our Journey
 
-We believe that everyone has the inner resources needed to create meaningful change. Our coaching methodology combines evidence-based practices with intuitive guidance, creating a safe space where you can explore possibilities, overcome obstacles, and take action toward your goals.
+Our path to starting Revaya grew from our own experiences navigating life's complexities and discovering the transformative power of intentional personal development. This journey taught us that with the right support and tools, we can all create lives that align with our deepest values and aspirations.
 
 ### Our Commitment
 
